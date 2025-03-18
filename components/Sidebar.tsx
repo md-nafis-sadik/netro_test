@@ -35,10 +35,6 @@ export default function Sidebar({ toggleSidebar }: SidebarProps) {
     }
   }, [theme]);
 
-  const handleToggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
-  };
-
   const menuItems = [
     { label: "Home", path: "/" },
     { label: "Services", path: "/services" },

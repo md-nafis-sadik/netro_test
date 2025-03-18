@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import { FaArrowRight, FaLightbulb, FaRegCheckCircle } from "react-icons/fa";
 import { IoMdThumbsUp, IoMdSettings } from "react-icons/io";
 import { FaHeadphones } from "react-icons/fa6";
@@ -200,7 +199,7 @@ export default function Homepage() {
                         </div>
                     </div>
 
-                    <div className="py-20 flex flex-col lg:flex-row items-center gap-10">
+                    <div className="py-20 flex flex-col-reverse lg:flex-row items-center gap-10">
                         <div className="w-full lg:w-1/2 text-left">
 
                             <p className="text-gray-500 text-sm mt-3 text-[17px] lg:text-[20px]">Advance task monitoring</p>
